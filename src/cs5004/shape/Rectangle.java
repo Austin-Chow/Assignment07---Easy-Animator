@@ -11,12 +11,12 @@ public class Rectangle extends AbstractShape {
       throw new IllegalArgumentException("Both width and height must be non-negative.");
     }
 
-    System.out.println("Name: " + this.getName() + "\n" +
-            "Type: rectangle\n" +
-            "Min corner: (" + this.posX + "," + this.posY +"), Width: " + this.getWidth() +
-            ", Height: " + this.getHeight() + ", Color: " + this.getColor() + "\n" +
-            "Appears at t=" + this.getAppears() + "\n" +
-            "Disappears at t=" + this.getDisappears());
+    System.out.println("Name: " + this.getName() + "\n"
+            + "Type: rectangle\n"
+            + "Min corner: (" + this.posX + "," + this.posY +"), Width: " + this.getWidth()
+            + ", Height: " + this.getHeight() + ", Color: " + this.getColor() + "\n"
+            + "Appears at t=" + this.getAppears() + "\n" + "Disappears at t="
+            + this.getDisappears());
   }
 
   @Override

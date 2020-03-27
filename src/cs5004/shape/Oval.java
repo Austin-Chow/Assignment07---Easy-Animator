@@ -30,8 +30,8 @@ public class Oval extends AbstractShape {
     double currHeight = this.getHeight();
     this.width = leftToRightNewDimension;
     this.height = upToDownNewDimension;
-    return "Shape " + this.getName() + " scales from X radius: " + currWidth +
-            ", Y radius: " + currHeight + " to X radius: " + leftToRightNewDimension +
-            ", Y radius: " + upToDownNewDimension + " from time t=" + startTime + " to t=" + endTime;
+    return "Shape " + this.getName() + " scales from X radius: " + currWidth
+            + ", Y radius: " + currHeight + " to X radius: " + leftToRightNewDimension
+            + ", Y radius: " + upToDownNewDimension + " from time t=" + startTime + " to t=" + endTime;
   }
 }

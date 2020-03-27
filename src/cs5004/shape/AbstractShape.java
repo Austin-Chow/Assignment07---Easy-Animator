@@ -53,10 +53,9 @@ public abstract class AbstractShape implements Shape {
     this.disappears = disappears;
   }
 
-
   @Override
   public String getColor() {
-    return "(" + this.red + "," + this.green + "," + this.blue +")";
+    return "(" + this.red + "," + this.green + "," + this.blue + ")";
   }
 
   @Override
@@ -93,7 +92,6 @@ public abstract class AbstractShape implements Shape {
   public int getDisappears() {
     return this.disappears;
   }
-
 
   @Override
   public String move(double endPosX, double endPosY, int startTime, int endTime) throws IllegalArgumentException {
@@ -138,7 +136,6 @@ public abstract class AbstractShape implements Shape {
     return "Shape " + this.getName() + " changes color from " + currColor +
             " to (" + red + "," + green + "," + blue  + ") from time t="
             + startTime + " to t=" + endTime;
-
   }
 
 }
