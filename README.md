@@ -1,5 +1,4 @@
 # Assignment07-Easy-Animator
-Assignment07 - Easy Animator.
 
 OVERVIEW of Assignment 7 Code:
 
